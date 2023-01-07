@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Header Section */
@@ -16,14 +17,14 @@
 
 .header-container {
     width: 30%;
-    margin-right: 50px;
+    margin-right: 100px;
 
 }
 
 .header-title {
     color: white;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 55px;
     line-height: 76px;
 }
 
@@ -51,6 +52,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-top: 80px;
 }
 
 .my-failure-items {
@@ -143,17 +145,21 @@ ul li {
 .cart-details {
     padding: 20px;
 }
+.cart-description{
+    text-align:left;
+}
 
 /* Positive mind Section  */
 
 
 .positive-container {
-    background-image: url('images/watch.png'), linear-gradient(to left, rgba(255, 0, 0, 0), rgb(26, 75, 180));
+    background-image: url('images/watch.png'), linear-gradient(to left, rgba(255, 0, 0, 0), rgb(19, 76, 199));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
-    max-width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    width: 60%;
     margin: 80px auto;
     padding: 10px;
 
@@ -161,23 +167,23 @@ ul li {
 }
 
 .positive-items {
-    width: 35%;
-    padding: 20px 0 20px 20px;
+    width: 50%;
+    padding: 30px 0 20px 40px;
 }
 
 .positive-item-title {
     color: white;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 35px;
     margin-bottom: 10px;
 }
 
 .positive-item-btn {
-    padding: 8px 15px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     color: #005FAC;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Footer section */
@@ -190,6 +196,7 @@ ul li {
     height: 280px;
     background-color: #151414;
     color: white;
+    padding: 50px 0;
 
 }
 
@@ -200,8 +207,8 @@ ul li {
 
 .feature-sub-title {
     color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
+    /* font-weight: 400; */
+    font-size: 12px;
     width: 400px;
     margin-bottom: 10px;
     line-height: 20px;
